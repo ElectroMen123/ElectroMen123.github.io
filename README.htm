@@ -9,27 +9,23 @@
 
 <body>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sky Blue Background Example</title>
-</head>
-<body style="background-color: skyblue;"></body>
+<h1 style="font-size: 48px;"><center>Dropout Form</center></h1>
 
-    <h2><h1 style="font-size: 48px;">Dropout Form</h1></h2>
+<body style="background-color: skyblue;"></body>
 
     <form action="/submit_form" method="post">
 
+
 <body>
     <label for="name" style="font-size: 24px;"><b>Name:<b></label>
-    <input type="text" id="name" name="name" style="font-size: 24px;">
+    <input type="text" id="name" name="name" style="font-size: 15px;">
 </body>
 <br>
 <br>
 
 <body>
     <label for="mobile" style="font-size: 24px;"><b>Mobile Number:<b></label>
-    <input type="tel" id="mobile" name="mobile" style="font-size: 24px;">
+    <input type="tel" id="mobile" name="mobile" style="font-size: 15px;">
     <small>Enter a 10-digit mobile number</small>
 </body>
 <br>
@@ -37,7 +33,7 @@
 
 <body>
     <label for="aadhar" style="font-size: 24px;"><b>Aadhar Number:<b></label>
-    <input type="tel" id="aadhar" name="aadhar" style="font-size: 24px;">
+    <input type="tel" id="aadhar" name="aadhar" style="font-size: 15px;">
     <small>Enter a 12-digit Aadhar number</small>
 </body>
 <br>
@@ -45,35 +41,112 @@
 
 <body>
     <label for="dropout" style="font-size: 24px;"><b>Dropout Class:<b></label>
-    <input type="text" id="dropout" name="dropout" style="font-size: 24px;">
+    <select id="dropout" name="droput">
+<option value="d1">1st</option>
+<option value="d2">2nd</option>
+<option value="d3">3rd</option>
+<option value="d4">4th</option>
+<option value="d5">5th</option>
+<option value="d6">6th</option>
+<option value="d7">7th</option>
+<option value="d8">8th</option>
+<option value="d9">9th</option>
+<option value="d10">10th</option>
+<option value="d11">11th</option>
+<option value="d12">12th</option>
+</select>
 </body>
 <br>
 <br>
 
 <body>
     <label for="school" style="font-size: 24px;"><b>School Name:<b></label>
-    <input type="text" id="school" name="school" style="font-size: 24px;">
+    <input type="text" id="school" name="school" style="font-size: 15px;">
 </body>
 <br>
 <br>
 
 <body>
     <label for="address" style="font-size: 24px;"><b>Address:<b></label>
-    <textarea <input type="text" id="address" name="address" style="font-size: 24px;"></textarea>
+    <textarea <input type="text" id="address" name="address" style="font-size: 15px;"></textarea>
 </body>
 <br>
 <br>
 
 <body>
-    <label for="religion" style="font-size: 24px;"><b>Religion:<b></label>
-    <input type="text" id="religion" name="religion" style="font-size: 24px;">
+    <lable for="religion" style="font-size: 24px;"><b>Religion:</b></label>
+    
+    <input type="radio" id="hindu" name="hindu" value="hindu">
+    <lable for="hindu" style="font-size: 18px;">Hindu</label>
+
+    <input type="radio" id="muslim" name="muslim" value="muslim">
+    <label for="muslim" style="font-size: 18px;">Muslim</label>
+
+    <input type="radio" id="christian" name="christian" value="christian">
+    <label for="christian" style="font-size: 18px;">Christian</label><br>
+    
+    <label for="other" style="font-size: 15px;">Other:</label>
+    <input type="text" id="other" name="other" style="font-size: 15px;">
 </body>
 <br>
 <br>
 
+<body>
+    <label for="gender" style="font-size: 24px;"><b>Gender:<b></label>
+    
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
 
-        <!-- Submit button -->
-        <input type="submit" value="Submit">
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+
+</body>
+<br>
+<br>
+
+<body>
+    <label for="dropout" style="font-size: 30px;"><b>Reason for dopout:<b></label><br>
+ 
+<input type="radio" id="a1" name="a1" value="a1">
+    <label for="a1" style="font-size: 20px;">Deteorating Financial Situation Of The Family</label><br>
+
+<input type="radio" id="a2" name="a2" value="a2">
+    <label for="a2" style="font-size: 20px;">Caste Discrimination</label><br>
+
+<input type="radio" id="a3" name="a3" value="a3">
+    <label for="a3" style="font-size: 20px;">Gender Bias</label><br>
+
+<input type="radio" id="a4" name="a4" value="a4">
+    <label for="a4" style="font-size: 20px;">Child Marriage</label><br>
+
+<input type="radio" id="a5" name="a5" value="a5">
+    <label for="a5" style="font-size: 20px;">Poor Health Facilities</label><br>
+
+<input type="radio" id="a6" name="a6" value="a6">
+    <label for="a6" style="font-size: 20px;">Lack of Famine Hygiene and Safety</label><br>
+
+<input type="radio" id="a7" name="a7" value="a7">
+    <label for="a7" style="font-size: 20px;">Bad Influence on Children like: Drugs, Alcohol etc.</label><br>
+
+ <label for="other" style="font-size: 20px;"><b>Others:<b></label>
+    <textarea <input type="text" id="other" name="other" style="font-size: 15px;"></textarea>
+
+</body>
+<br>
+<br>
+
+<label for="help" style="font-size: 24px;"><b>How Can We Help You:<b></label>
+    <textarea <input type="text" id="help" name="help" style="font-size: 15px;"></textarea>
+<br>
+<br>
+
+
+
+
+    <center><input type="submit" value="Submit"></center>
     </form>
 
 </body>
